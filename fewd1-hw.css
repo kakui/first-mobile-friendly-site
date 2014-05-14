@@ -1,0 +1,86 @@
+#outer{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#logo{
+	margin-left: 75px;
+}
+
+#anvil{
+	margin: 0 auto;
+	display: block;
+}
+
+#menu-bar {
+	margin-top: 25px;
+	margin-right: 70px;
+	float: right;
+}
+
+#menu-bar h1{
+	color: grey;
+	display: inline-block;
+	margin: 10px;
+
+}
+
+#text-stuff{
+	width: 850px;
+	margin: 0 auto;
+
+}
+
+.why-acme{
+	color: grey;
+	float: left;
+	max-width: 400px;
+	margin-right: 25px;
+	margin-left: 25px;
+
+}
+
+.anvils-dont{
+	color: grey;
+	float: left;
+	max-width: 400px;
+}
+
+@media all and (max-width: 600px) {
+
+	#outer {
+		width: inherit;
+	}
+
+	#logo {
+		display: block;
+		margin-left: 0px;
+	}
+
+	#menu-bar {
+		float: left;
+	}
+
+	#menu-bar h1{
+		display: block;
+		margin-left: 0px;
+	}
+
+	#anvil{
+		display: none;
+	}
+
+	#text-stuff{
+		float: left;
+		width: inherit;
+	}
+
+	.why-acme{
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.anvils-dont{
+		width: 100%;
+	}
+}
